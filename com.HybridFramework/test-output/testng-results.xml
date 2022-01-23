@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="4698" started-at="2022-01-22T06:35:31Z" finished-at="2022-01-22T06:35:36Z">
+  <suite name="Suite" duration-ms="3342" started-at="2022-01-23T06:07:42Z" finished-at="2022-01-23T06:07:45Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="4698" started-at="2022-01-22T06:35:31Z" finished-at="2022-01-22T06:35:36Z">
+    <test name="Test" duration-ms="3342" started-at="2022-01-23T06:07:42Z" finished-at="2022-01-23T06:07:45Z">
       <class name="com.tests.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.tests.LoginTest@3bfdc050]" name="setup" is-config="true" duration-ms="25104" started-at="2022-01-22T06:35:06Z" finished-at="2022-01-22T06:35:31Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tests.LoginTest@18eed359]" name="setup" is-config="true" duration-ms="29405" started-at="2022-01-23T06:07:13Z" finished-at="2022-01-23T06:07:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.tests.LoginTest@3bfdc050]" name="loginTest" duration-ms="3207" started-at="2022-01-22T06:35:31Z" finished-at="2022-01-22T06:35:35Z">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.tests.LoginTest@18eed359]" name="loginTest" duration-ms="2421" started-at="2022-01-23T06:07:42Z" finished-at="2022-01-23T06:07:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="FAIL" signature="failTest()[pri:2, instance:com.tests.LoginTest@3bfdc050]" name="failTest" duration-ms="37" started-at="2022-01-22T06:35:35Z" finished-at="2022-01-22T06:35:35Z">
+        <test-method status="FAIL" signature="failTest()[pri:2, instance:com.tests.LoginTest@18eed359]" name="failTest" duration-ms="36" started-at="2022-01-23T06:07:45Z" finished-at="2022-01-23T06:07:45Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [JavaByKiran | Log in] but found [JavaByKiran | Dashboard]]]>
@@ -28,7 +28,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:453)
 at org.testng.Assert.assertEquals(Assert.java:463)
-at com.tests.LoginTest.failTest(LoginTest.java:34)
+at com.tests.LoginTest.failTest(LoginTest.java:41)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -60,7 +60,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.LoginTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="4189" started-at="2022-01-22T06:35:37Z" finished-at="2022-01-22T06:35:41Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.LoginTest@18eed359]" name="tearDown" is-config="true" duration-ms="5469" started-at="2022-01-23T06:07:46Z" finished-at="2022-01-23T06:07:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
